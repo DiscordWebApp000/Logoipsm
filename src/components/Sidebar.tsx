@@ -10,7 +10,7 @@ interface SidebarProps {
   onClose?: () => void;
 }
 
-const Sidebar: FC<SidebarProps> = ({ isOpen, onClose }) => {
+const Sidebar: FC<SidebarProps> = ({ isOpen }) => {
   if (!isOpen) return null;
 
   return (
