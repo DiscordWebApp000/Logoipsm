@@ -19,7 +19,7 @@ interface PortfolioItem {
   symbol: string;
 }
 
-const Portfolio: FC<PortfolioProps> = ({ isOpen, onClose }) => {
+const Portfolio: FC<PortfolioProps> = ({ isOpen}) => {
   if (!isOpen) return null;
 
   const portfolioItems: PortfolioItem[] = [
