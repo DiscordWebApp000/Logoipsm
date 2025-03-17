@@ -1,5 +1,5 @@
 import { FC } from 'react';
-import { FiGrid, FiMessageCircle, FiRepeat, FiSettings, FiLogOut, FiX } from 'react-icons/fi';
+import { FiGrid, FiMessageCircle, FiRepeat, FiSettings, FiLogOut} from 'react-icons/fi';
 import { FiCreditCard } from 'react-icons/fi';
 import { FiMail } from 'react-icons/fi';
 import { FiFileText } from 'react-icons/fi';
